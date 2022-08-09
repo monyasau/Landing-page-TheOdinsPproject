@@ -1,29 +1,72 @@
-*{
-    font-family: roboto, tahoma;
+@font-face {
+  font-family: "Roboto";
+  src: url("./font/Roboto.ttf") format("truetype");
 }
-body{
-    margin: 0;
-    background-color: white;
+
+* {
+  font-family: "Roboto";
+}
+body {
+  margin: 0;
+  background-color: white;
 }
 .first-sect {
-    background-color: #1f2937;
+  padding-bottom: 1px;
+  background-color: #1f2937;
 }
 
 .nav {
-    margin: 0 auto;
-    width: 80%;
-    justify-content: space-between;
-    align-items: center;
-    flex: 1 1 auto;
-    display: flex;
+  margin: 0 auto;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 1 auto;
+  display: flex;
 }
-.header-logo{
-    font-size: 24px;
-    color: #f9faf8;
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
 }
-.nav-links{
-    gap: 22px;
-    display: inline-flex;
-    color: #e5e7eb;
-    font-size: 18px;
+.nav-links {
+  gap: 22px;
+  display: inline-flex;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.hero-sect {
+  gap: 20px;
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+  margin: 100px auto;
+}
+.hero-text-content {
+  flex: 1 1 0;
+}
+.hero-header {
+  max-width: 400px;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+.hero-text {
+  color: #e5e7eb;
+  /* max-width: 500px; */
+}
+.signup-btn {
+  border: none;
+  border-radius: 10px;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #3882f6;
+  padding: 10px 40px;
+}
+.hero-image {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #e5e7eb;
+  flex: 1 1 10%;
 }
