@@ -1,0 +1,29 @@
+*{
+    font-family: roboto, tahoma;
+}
+body{
+    margin: 0;
+    background-color: white;
+}
+.first-sect {
+    background-color: #1f2937;
+}
+
+.nav {
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 auto;
+    display: flex;
+}
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.nav-links{
+    gap: 22px;
+    display: inline-flex;
+    color: #e5e7eb;
+    font-size: 18px;
+}
