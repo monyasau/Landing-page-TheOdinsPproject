@@ -118,3 +118,33 @@ strong.header {
   justify-content: flex-end;
   display: flex;
 }
+.last-sect{
+  padding: 100px 0;
+display: flex;
+justify-content: center;
+}
+.cta {
+  justify-content: space-between;
+  display: flex;
+  padding: 80px 190px;
+  width: 40%;
+  background-color: #3882f6;
+border-radius: 10px;
+}
+.cta-header {
+  font-weight: 800;
+  font-size: 36px;
+  color: #f9faf8;
+}
+.cta-text {
+  color: #e5e7eb;
+  font-size: 24px;
+}
+.cta-signup-btn{
+  padding: 0px 40px;
+  background-color: transparent;
+  border: 3px solid #f9faf8;
+  color: #f9faf8;
+  font-size: 24px;
+  border-radius: 10px;
+}
