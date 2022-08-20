@@ -141,10 +141,22 @@ border-radius: 10px;
   font-size: 24px;
 }
 .cta-signup-btn{
-  padding: 0px 40px;
+  padding: 0px 30px;
   background-color: transparent;
   border: 3px solid #f9faf8;
   color: #f9faf8;
   font-size: 24px;
   border-radius: 10px;
+}
+footer{
+  font-size: 18px;
+  text-align: center;
+  color: #e5e7eb;
+  padding: 50px 0;
+  background-color: #1f2937;
+}
+footer a {
+  font-size: 22px;
+  text-decoration: none;
+  color: #f9faf8;
 }
